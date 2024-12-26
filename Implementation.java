@@ -2,8 +2,8 @@ package LinkedList;
 
 
 class SinglyLinkedList {
-    private Node head;
-    private Node tail;
+    Node head;
+    Node tail;
     int size;
     void display() {
         Node temp = head;
