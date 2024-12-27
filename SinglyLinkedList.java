@@ -1,9 +1,9 @@
 package LinkedList;
 
 public class SinglyLinkedList {
-    Node head;
-    Node tail;
-    int size;
+    public Node head;
+    public Node tail;
+    public int size;
     void display() {
         Node temp = head;
         while (temp != null) {
@@ -13,7 +13,7 @@ public class SinglyLinkedList {
         System.out.println();
     }
 
-    void insertAtHead(int val) {
+    public void insertAtHead(int val) {
         Node temp = new Node(val);
         if (head == null) {
             head = tail = temp;
@@ -24,7 +24,7 @@ public class SinglyLinkedList {
         size++;
     }
 
-    void insertAtTail(int val) {
+    public void insertAtTail(int val) {
         Node temp = new Node(val);
         if (head == null) {
             head = tail = temp;
@@ -35,7 +35,7 @@ public class SinglyLinkedList {
         size++;
     }
 
-    void insert(int idx, int val) {
+    public void insert(int idx, int val) {
         if (idx < 0 || idx > size) {
             System.out.println("Invalid index!!");
             return;
@@ -59,7 +59,7 @@ public class SinglyLinkedList {
         size++;
     }
 
-    int getElement(int idx) throws Error {
+    public int getElement(int idx) throws Error {
         if (idx == size-1)
             return tail.val; 
         if (idx < 0 || idx >= size) {
@@ -73,7 +73,7 @@ public class SinglyLinkedList {
         return temp.val;
     }
 
-    void delete(int idx) throws Error {
+    public void delete(int idx) throws Error {
         if (idx > size-1 || idx < 0) {
             throw new Error("Index Not Existing!!");
         }
@@ -92,14 +92,6 @@ public class SinglyLinkedList {
     }
 }
 
-class Node {
-    int val;
-    Node next;
-
-    Node(int n) {
-        this.val = n;
-    }
-}
 
 // class Implementation {
 //     public static void main(String[] args) {
