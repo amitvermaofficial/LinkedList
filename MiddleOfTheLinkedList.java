@@ -1,5 +1,5 @@
 package LinkedList;
-
+// slow-fast approach.
 import java.util.Scanner;
 // LeetCode 876.
 
