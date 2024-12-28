@@ -4,7 +4,7 @@ public class SinglyLinkedList {
     public Node head;
     public Node tail;
     public int size;
-    void display() {
+    public void display() {
         Node temp = head;
         while (temp != null) {
             System.out.print(temp.val + " ");
