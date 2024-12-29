@@ -48,7 +48,7 @@ public class RemoveDuplicatesFromSortedList {
         list.insertAtTail(17);
         list.insertAtTail(78);
         list.insertAtTail(78);
-        Node head = deleteDuplicates(list.head);
+        deleteDuplicates(list.head);
         list.display();
     }
 }

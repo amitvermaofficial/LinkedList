@@ -4,6 +4,9 @@
 # Log file
 *.log
 
+# Extensions generated files.
+*.cph
+
 # BlueJ files
 *.ctxt
 
