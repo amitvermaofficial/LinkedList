@@ -4,6 +4,17 @@ public class SinglyLinkedList {
     public Node head;
     public Node tail;
     public int size;
+
+    public void display(Node head) {
+        Node temp = head;
+        while (temp != null) {
+            System.out.print(temp.val + " ");
+            temp = temp.next;
+        }
+        System.out.println();
+    }
+
+
     public void display() {
         Node temp = head;
         while (temp != null) {
