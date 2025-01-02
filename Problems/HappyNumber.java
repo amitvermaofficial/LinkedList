@@ -31,8 +31,8 @@ public class HappyNumber {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNextInt()) {
             int n = sc.nextInt();
-            System.out.println(obj.square(n));
-//            System.out.println(obj.isHappy(n));
+            // System.out.println(obj.square(n));
+            System.out.println(obj.isHappy(n));
         }
         sc.close();
     }
