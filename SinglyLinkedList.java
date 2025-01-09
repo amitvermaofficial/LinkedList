@@ -101,6 +101,10 @@ public class SinglyLinkedList {
         }
         size--;
     }
+
+    public void setHead(Node head) {
+        this.head = head;
+    }
 }
 
 

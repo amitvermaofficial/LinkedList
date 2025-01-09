@@ -30,6 +30,7 @@ public class PartitionList {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         SinglyLinkedList list = new SinglyLinkedList();
+        System.out.print("Enter the elements of the Nodes of the Linked-list: ");
         while (sc.hasNextInt()) {
             list.insertAtTail(sc.nextInt());
         }
