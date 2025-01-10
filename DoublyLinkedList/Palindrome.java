@@ -1,7 +1,7 @@
 package LinkedList.DoublyLinkedList;
 
 public class Palindrome {
-    static boolean isPlaindrome(Node head, Node tail) {
+    static boolean isPalindrome(Node head, Node tail) {
         Node forw = head, back = tail;
         while (forw != tail) {
             if (forw.val !=  back.val)
@@ -27,6 +27,6 @@ public class Palindrome {
         node3.next = tail1;
         tail1.prev = node3;
 
-        System.out.println("Palindrome status: "+isPlaindrome(head1, tail1));
+        System.out.println("Palindrome status: "+isPalindrome(head1, tail1));
     }
 }
