@@ -1,5 +1,7 @@
 package LinkedList.Problems;
 
+// TC: O(n), SC: O(n) // bcoz we're using required space for deep copy. so, it is not considerd as the extra space. Therefore, SC: O(1).
+
 // Definition for a Node.
 class Node {
     int val;
