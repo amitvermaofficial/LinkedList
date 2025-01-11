@@ -1,17 +1,5 @@
 package LinkedList.DoublyLinkedList;
 
-class Node {
-    int val;
-    Node next;
-    Node prev;
-
-    Node(int data) {
-        this.val = data;
-        this.next = null;
-        this.prev = null;
-    }
-}
-
 public class DoublyLinkedList {
     public static void main(String[] args) {
         Node head = new Node(10);
